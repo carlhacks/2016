@@ -23,20 +23,38 @@ body {
 }
 
 .logo {
-  max-width: 165px;
+  max-height: 137px;
+//   max-width: 130px;
+}
+
+.general {
+  background-color: #29167a;
+  color: white;
+}
+
+.information {
+  border: 2px solid white;
+}
+
+.testimony {
+  border: 2px solid white;
 }
 
 h1, h2 {
   margin: 0px;
 }
 
+h1 {
+  line-height: 100%;
+}
+
 h2 {
-  font-size: .66em;
+  font-size: .67em;
 }
 
 a {
   color: white;
   border: 2px solid white;
   text-decoration: none;
-  margin-top: 20px;
+  margin-top: 18px;
 }
