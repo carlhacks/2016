@@ -608,10 +608,13 @@ body {
 .title {
   background-color: #29167a;
   color: white;
-  font-size: 1.5em; }
+  font-size: 2em; }
 
 .notbold {
   font-weight: 400; }
+
+.smaller {
+  font-size: .85em; }
 
 .logo {
   max-width: 165px; }
@@ -620,7 +623,10 @@ h1, h2 {
   margin: 0px; }
 
 h2 {
-  font-size: 1em; }
+  font-size: .66em; }
 
 a {
-  color: white; }
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+  margin-top: 20px; }
