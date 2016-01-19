@@ -28,6 +28,7 @@ page '/*.txt', layout: false
 #     "Helping"
 #   end
 # end
+activate :directory_indexes
 
 # Build-specific configuration
 configure :build do
@@ -36,4 +37,5 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+  activate :asset_hashes
 end
