@@ -34,14 +34,27 @@ body {
 }
 
 .information {
-  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 20px 20px 20px 50px;
 }
 
 .testimony {
-  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 20px 50px 20px 20px;
 }
 
-h1, h2 {
+.wborder {
+  border: 1px solid white;
+}
+
+.testImg {
+  max-width: 90%;
+  padding: 40px;
+}
+
+h1, h2, h3, p {
   margin: 0px;
 }
 
@@ -58,4 +71,11 @@ a {
   border: 2px solid white;
   text-decoration: none;
   margin-top: 18px;
+//   background-color: transparent;
+}
+
+a:hover {
+  background-color: white;
+  cursor: auto;
+  color: #29167a;
 }
