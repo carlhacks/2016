@@ -28,19 +28,28 @@ body {
   max-height: 137px;
 }
 
+.secheader {
+  padding-bottom: 30px;
+}
+
 .general {
-  background-color: #29167a;
-  color: white;
+//   background-color: #29167a;
+//   color: white;
+  background-color: #fcfcfc;
+  color: #29167a;
+
 }
 
 .information {
-  color: white;
+//   color: white;
+  color: #29167a;
   text-decoration: none;
   padding: 20px 20px 20px 50px;
 }
 
 .testimony {
-  color: white;
+//   color: white;
+  color: #29167a;
   text-decoration: none;
   padding: 20px 50px 20px 20px;
 }
@@ -51,10 +60,10 @@ body {
 
 .testImg {
   max-width: 90%;
-  padding: 40px;
+  padding: 20px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, H4, p {
   margin: 0px;
 }
 
@@ -64,6 +73,17 @@ h1 {
 
 h2 {
   font-size: .67em;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: .9em;
+  font-style: italic;
+}
+
+p {
+  padding-top: 5px;
+  font-weight: 400;
 }
 
 a {
