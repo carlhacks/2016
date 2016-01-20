@@ -10,6 +10,8 @@ body {
 
 .title {
   background-color: #29167a;
+  background-image: url("../images/BG.jpg");
+  background-size: cover;
   color: white;
   font-size: 2em;
 }
@@ -24,7 +26,6 @@ body {
 
 .logo {
   max-height: 137px;
-//   max-width: 130px;
 }
 
 .general {
