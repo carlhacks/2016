@@ -6,6 +6,7 @@ body {
   font-family: "Whitney SSm A", "Whitney SSm B";
   font-style: normal;
   font-weight: 400; // we also have the 600 and 700 font weights
+  font-size: 16px;
 }
 
 .title {
@@ -38,28 +39,26 @@ body {
 
 .secheader {
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .general {
-//   background-color: #29167a;
-//   color: white;
   background-color: #fcfcfc;
   color: #29167a;
-
 }
 
-.information {
-//   color: white;
-  color: #29167a;
+.content {
   text-decoration: none;
-  padding: 20px 20px 20px 50px;
+  padding: 50px;
 }
 
-.testimony {
-//   color: white;
-  color: #29167a;
-  text-decoration: none;
-  padding: 20px 50px 20px 20px;
+.shaded {
+  background-color: #eee;
+}
+
+.shaded-dark {
+  background-color: #404040;
+  color: #eee;
 }
 
 .wborder {
@@ -75,8 +74,13 @@ h1, h2, h3, h4, p {
   margin: 0px;
 }
 
-h1 {
+h1.hero-header {
   line-height: 0.8;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
 }
 
 h2 {
@@ -91,8 +95,8 @@ h4 {
 }
 
 p {
-  padding-top: 5px;
   font-weight: 400;
+  line-height: 1.7;
 }
 
 .button {
@@ -124,4 +128,8 @@ p {
   height: 7px;
   background-color: #fff;
   border-radius: 50%;
+}
+
+.full-img {
+  width: 100%;
 }
