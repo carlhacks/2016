@@ -6,7 +6,11 @@ body {
   font-family: "Whitney SSm A", "Whitney SSm B";
   font-style: normal;
   font-weight: 400; // we also have the 600 and 700 font weights
-  font-size: 16px;
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
 }
 
 .title {
@@ -57,7 +61,7 @@ body {
 }
 
 .shaded-dark {
-  background-color: #404040;
+  background-color: #333;
   color: #eee;
 }
 
@@ -79,7 +83,7 @@ h1.hero-header {
   font-weight: 700;
 }
 
-h1, h2, h3 {
+h1, h2, h3, strong {
   font-weight: 600;
 }
 
@@ -92,6 +96,10 @@ h4 {
   font-weight: 400;
   font-size: .9em;
   font-style: italic;
+}
+
+ul {
+  padding-left: 1.6em;
 }
 
 p {
@@ -133,3 +141,5 @@ p {
 .full-img {
   width: 100%;
 }
+
+
