@@ -105,6 +105,10 @@ h2 {
   line-height: 1;
 }
 
+h3 {
+  font-size: 1.3em;
+}
+
 h4 {
   font-weight: 400;
   font-size: .9em;
@@ -120,61 +124,43 @@ p {
   line-height: 1.7;
 }
 
-.button>button {
+.button>button, .button-light>button {
   width: 100%;
   display: block;
-  color: white;
   background-color: transparent;
-  border: 2px solid white;
   text-decoration: none;
-  padding: 0.6em;
+  padding: 0.6em 1em;
   border-radius: 3px;
   font-weight: 600;
   font-size: 1rem;
   transition: all 100ms linear;
+  &:hover { transform: scale(1.05); }
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    transform: scale(1);
+    box-shadow: none;
+  }
+}
+.button>button {
+  color: white;
+  border: 2px solid white;
   &:hover {
     background-color: white;
-    cursor: auto;
     color: $primary-color;
-    transform: scale(1.05);
   }
-  &:focus {
-    outline: none;
-    box-shadow: 0px 0px 4px #fff;
-  }
-  &:active {
-    transform: scale(1);
-    box-shadow: none;
-  }
+  &:focus { box-shadow: 0px 0px 4px white; }
 }
-
 .button-light>button {
-  display: block;
   color: $primary-color;
-  background-color: transparent;
   border: 2px solid $primary-color;
-  text-decoration: none;
-  padding: 0.6em;
-  border-radius: 3px;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 100ms linear;
   &:hover {
     background-color: $primary-color;
-    cursor: auto;
     color: white;
-    transform: scale(1.05);
   }
-  &:focus {
-    outline: none;
-    box-shadow: 0px 0px 4px $primary-color;
-  }
-  &:active {
-    transform: scale(1);
-    box-shadow: none;
-  }
+  &:focus { box-shadow: 0px 0px 4px $primary-color; }
 }
-
 
 .hero {
   text-transform: uppercase;
