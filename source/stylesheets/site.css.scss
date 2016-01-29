@@ -136,9 +136,15 @@ p {
     background-color: white;
     cursor: auto;
     color: $primary-color;
+    transform: scale(1.05);
   }
   &:focus {
     outline: none;
+    box-shadow: 0px 0px 4px #fff;
+  }
+  &:active {
+    transform: scale(1);
+    box-shadow: none;
   }
 }
 
@@ -157,9 +163,15 @@ p {
     background-color: $primary-color;
     cursor: auto;
     color: white;
+    transform: scale(1.05);
   }
   &:focus {
     outline: none;
+    box-shadow: 0px 0px 4px $primary-color;
+  }
+  &:active {
+    transform: scale(1);
+    box-shadow: none;
   }
 }
 
