@@ -16,6 +16,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
+    min-width: 0; min-height: 0; // temporary fix for chrome 48
     &>* {
       min-width: 0; min-height: 0; // temporary fix for chrome 48
     }

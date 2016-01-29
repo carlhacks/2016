@@ -2,11 +2,14 @@
 @import "normalize";
 @import "grid";
 
+$primary-color: #3D3D85;
+
 body {
   font-family: "Whitney SSm A", "Whitney SSm B";
   font-style: normal;
   font-weight: 400; // we also have the 600 and 700 font weights
   font-size: 15px;
+  background-color: #f9f9f9;
 }
 
 a {
@@ -14,7 +17,7 @@ a {
 }
 
 .title {
-  background-color: #29167a;
+  background-color: $primary-color;
   background-image: url("../images/BG.jpg");
   background-size: cover;
   color: white;
@@ -48,7 +51,7 @@ a {
 
 .general {
   background-color: #fcfcfc;
-  color: #29167a;
+  color: $primary-color;
 }
 
 .content {
@@ -56,10 +59,20 @@ a {
   padding: 50px;
 }
 
-.shaded {
-  background-color: #eee;
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 
+.quote {
+  font-size: 1.2em;
+  color: #888;
+}
+
+.shaded {
+  background-color: #E5E3DE;
+}
 .shaded-dark {
   background-color: #333;
   color: #eee;
@@ -122,12 +135,34 @@ p {
   &:hover {
     background-color: white;
     cursor: auto;
-    color: #29167a;
+    color: $primary-color;
   }
   &:focus {
     outline: none;
   }
 }
+
+.button-light>button {
+  display: block;
+  color: $primary-color;
+  background-color: transparent;
+  border: 2px solid $primary-color;
+  text-decoration: none;
+  padding: 0.6em;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 100ms linear;
+  &:hover {
+    background-color: $primary-color;
+    cursor: auto;
+    color: white;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
 
 .hero {
   text-transform: uppercase;
