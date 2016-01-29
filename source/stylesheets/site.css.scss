@@ -107,9 +107,11 @@ p {
   line-height: 1.7;
 }
 
-.button {
+.button>button {
+  width: 100%;
   display: block;
   color: white;
+  background-color: transparent;
   border: 2px solid white;
   text-decoration: none;
   padding: 0.6em;
