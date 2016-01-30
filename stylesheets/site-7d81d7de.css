@@ -676,13 +676,20 @@ a {
       padding: 50px; } }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%; }
+  @media only screen and (min-width: 768px) {
+    .avatar {
+      width: 100px;
+      height: 100px; } }
 
 .quote {
-  font-size: 1.2em;
+  font-size: 0.9em;
   color: #888; }
+  @media only screen and (min-width: 768px) {
+    .quote {
+      font-size: 1.2em; } }
 
 .shaded {
   background-color: #E5E3DE; }
