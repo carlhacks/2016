@@ -39,3 +39,11 @@ configure :build do
   # activate :minify_javascript
   activate :asset_hash
 end
+
+# Sass gets screwed up with Typography.com fonts unless we do this
+ignore "/fonts/*"
+after_build do |builder|
+  src = File.join(config[:source],"fonts")
+  dst = config[:build_dir]
+  FileUtils.cp_r(src, dst)
+end
