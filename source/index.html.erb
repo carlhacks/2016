@@ -16,6 +16,21 @@ title: CarlHacks 2016
 			<tito-button event="carlhacks/2016" class="button">Register Now</tito-button>
 		</div>
 	</div>
+	<div class="bg-vid">
+		<video id="bg-vid" class="bg-vid" preload='none' src="/mp4/bg.mp4" poster="/images/video-poster.png" loop>
+		 	TODO put img here
+		</video>
+		<script>
+			var checkWidth = function() {
+				if (window.innerWidth >= 768) {
+					document.getElementById('bg-vid').play();
+				}
+			}
+			window.onresize = checkWidth;
+			window.onload = checkWidth;
+			checkWidth();
+		</script>
+	</div>
 </div>
 
 <div class="xl-row xl-middle">
@@ -23,7 +38,7 @@ title: CarlHacks 2016
 		<div class="col vjustify gap-4">
 			<div class="col justify vjustify gap-3">
 				<h3>200 students. 35 hours. Limitless possibilities.</h3>
-				<p>Carleton College is pleased to announce its second large-scale hackathon. Whether you've been programming for five minutes or five years, you'll find CarlHacks is an incredible space to learn dramatically more. Code your next big idea for 35 hours through day and night (napping strongly encouraged), attend a cornucopia of workshops, and get inspired by an awesome, inclusive community of hackers.</p>
+				<p>Carleton College is pleased to announce its second large-scale hackathon. Whether you've been programming for five minutes or five years, you'll find CarlHacks is an incredible space to learn dramatically more. Code your next big idea for 35 hours through day and night (napping strongly encouraged), attend a cornucopia of workshops, and get inspired by an awesome, inclusive community of hackers. Undergraduates from <em>any</em> college in the US are invited.</p>
 			</div>
 			<div class="col justify vjustify gap-3">
 				<h3>Why CarlHacks?</h3>
@@ -36,7 +51,6 @@ title: CarlHacks 2016
 					<li><p>Eat <strong>delicious catered meals</strong>, snacks, and of course, coffee</p></li>
 					<li><p>Need a coding break? Take a nap on an air mattress, a shower in our bathrooms, walk around our 880-acre arboretum, or participate in one of our exciting mini-events, complete with mini-prizes</p></li>
 				</ul>
-				<p>Any undergraduate enrolled in an North American college during the 2015&ndash;2016 academic year is eligible to participate. Interested? Read on for more details.</p>
 			</div>
 		</div>
 	</div>

@@ -21,9 +21,13 @@ a {
 }
 
 .title {
-  background-color: $primary-color;
-  background-image: url("../images/BG.jpg");
+  background-color: rgba($primary-color, 0.7);
+  background-image: image-url('BG.jpg');
+  @include desktop {
+    background-image: none;
+  }
   background-size: cover;
+  background-position: center center;
   color: white;
   font-size: 2em;
 }
@@ -189,4 +193,19 @@ p {
   width: 100%;
 }
 
+.bg-vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow:hidden;
+  // display: none;
+  // @desktop { display: block; }
 
+  &>video {
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
