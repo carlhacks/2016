@@ -828,3 +828,7 @@ p {
 
 .see-more-top-padding {
   height: 60px; }
+
+.sponsor-img {
+  width: 100%;
+  max-height: auto; }
