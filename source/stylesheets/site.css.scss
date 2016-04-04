@@ -138,6 +138,19 @@ p {
   line-height: 1.7;
 }
 
+.timer {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  padding: 0.9em 1em;
+  border-radius: 3px;
+  text-transform: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border: 2px solid rgba(255,255,255,0.3);
+}
+
 .button>button, .button-light>button {
   width: 100%;
   display: block;
@@ -183,6 +196,7 @@ p {
 .hero {
   text-transform: uppercase;
   font-size: 0.8em;
+  padding: 3em 0;
   @include desktop { font-size: 1em; }
 }
 
