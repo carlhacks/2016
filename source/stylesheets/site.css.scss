@@ -101,7 +101,21 @@ a {
   padding: 20px;
 }
 
-h1, h2, h3, h4, p {
+.schedule {
+  td {
+    padding-top: 4px;
+    padding-right: 10px;
+  }
+  td:first-child {
+    font-style: italic;
+    text-align: right;
+  }
+  td.strong {
+    font-weight: 600;
+  }
+}
+
+h1, h2, h3, h4, p, ul {
   margin: 0px;
 }
 
