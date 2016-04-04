@@ -142,13 +142,16 @@ p {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  display: block;
   padding: 0.9em 1em;
   border-radius: 3px;
   text-transform: none;
   font-weight: 600;
   font-size: 0.8rem;
   border: 2px solid rgba(255,255,255,0.3);
+  display: none;
+  @include desktop {
+    display: block;
+  }
 }
 
 .button>button, .button-light>button {
