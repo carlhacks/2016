@@ -175,6 +175,12 @@ p {
   width: auto;
 }
 
+.smalltext {
+  text-align: center;
+  text-transform: none;
+  font-size: 1.2rem;
+}
+
 .button>button, .button-light>button {
   width: 100%;
   display: block;
