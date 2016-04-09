@@ -900,6 +900,7 @@ p {
 
 .timer-large {
   font-size: 1.3rem;
+  line-height: 1.5;
   text-transform: none;
   width: auto; }
 
