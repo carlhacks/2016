@@ -1,5 +1,6 @@
 ---
 title: CarlHacks 2016 Dashboard
+refresh: true
 ---
 
 <div class="page">
@@ -15,20 +16,6 @@ title: CarlHacks 2016 Dashboard
     <div class="top">
       <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/CarlHacks" data-widget-id="718631957211394048">#CarlHacks Tweets</a>
     </div>
-  </div>
-  <div class="bg-vid">
-    <video id="bg-vid" class="bg-vid" preload='none' src="/mp4/bg.mp4" poster="/images/video-poster.png" loop>
-    </video>
-    <script>
-      var checkWidth = function() {
-        if (window.innerWidth >= 768) {
-          document.getElementById('bg-vid').play();
-        }
-      }
-      window.onresize = checkWidth;
-      window.onload = checkWidth;
-      setTimeout(checkWidth, 100);
-    </script>
   </div>
 </div>
 
