@@ -9,6 +9,9 @@
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
+    <% if current_page.data.refresh %>
+    <meta http-equiv="refresh" content="180" >
+    <% end %>
 
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7763312/7984752/css/fonts.css" />
 
